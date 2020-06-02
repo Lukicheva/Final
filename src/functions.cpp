@@ -26,7 +26,15 @@ int numberOfOddElements(vector <int> vec)
 
 int numberOfEvenElements(vector <int> vec)
 {
-    return 0;
+    int number = 0;
+    for (int elem : vec)
+    {
+        if (elem % 2 == 0)
+        {
+            number++;
+        }
+    }
+    return number;
 }
 
 vector<int> extractOddElements(vector <int> vec)

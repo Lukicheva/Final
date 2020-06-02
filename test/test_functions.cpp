@@ -42,15 +42,15 @@ TEST(numberOfOddElements, DISABLED_TwoNegativeOddNumbers)
 }
 
 // numberOfEvenElements
-TEST(numberOfEvenElements, DISABLED_NoEvenElements)
+TEST(numberOfEvenElements, NoEvenElements)
 {
     vector <int> v{ 21, 3, -766413, 2381 };
     EXPECT_EQ(0, numberOfEvenElements(v));
 }
 
-TEST(numberOfEvenElements, DISABLED_TwoNegativeEvenNumbers)
+TEST(numberOfEvenElements, TwoNegativeEvenNumbers)
 {
-    vector <int> v{ -1873, -12, -28, 0, 9, 0 };
+    vector <int> v{ -1873, -12, -28, 1, 9, 1 };
     EXPECT_EQ(2, numberOfEvenElements(v));
 }
 
